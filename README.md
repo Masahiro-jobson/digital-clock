@@ -6,7 +6,7 @@ First, I made useState which makes new Date object for "time" state and the upda
 <img width="283" alt="image" src="https://github.com/user-attachments/assets/93477678-e1c4-496a-b8cf-c9b5a39fe4da" />
 </br>
 
-Second, I made useEffect state and it includes timerId variable which stores setInterval (Java) function. </br> The setInterval function enables the time to be updated per 1000 milliseconds. </br> For better performance, I set clearInterval function for deleting setInterval function in timerId after updating the current time.</br>
+Second, I made useEffect state and it includes timerId variable which stores setInterval (Java) function. </br> The setInterval function enables the time to be updated per 1000 milliseconds(1 second). </br> For better performance, I set clearInterval function for deleting setInterval function in timerId after updating the current time.</br>
 <img width="351" alt="image" src="https://github.com/user-attachments/assets/eb9d7e7a-04ef-4e42-8743-4f09512343be" />
 </br>
 
