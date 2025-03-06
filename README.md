@@ -1,7 +1,7 @@
 
 This application shows the current time based on local time.</br>
-It makes me deeply understand how usestate and useEffect work.
-</br>
+It makes me deeply understand how usestate and useEffect work.</br>
+
 First, I made useState which makes new Date object for "time" state and the update state which is setTime.</br>
 <img width="283" alt="image" src="https://github.com/user-attachments/assets/93477678-e1c4-496a-b8cf-c9b5a39fe4da" />
 </br>
