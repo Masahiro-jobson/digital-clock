@@ -1,12 +1,20 @@
-# React + Vite
+<img width="351" alt="image" src="https://github.com/user-attachments/assets/74905a39-7b51-4927-92a5-e6213e485669" />
+This application shows the current time based on local time.</br>
+It makes me deeply understand how usestate and useEffect work.
+</br>
+First, I made useState which makes new Date object for "time" state and the update state which is setTime.</br>
+<img width="283" alt="image" src="https://github.com/user-attachments/assets/93477678-e1c4-496a-b8cf-c9b5a39fe4da" />
+</br>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Second, I made useEffect state and it includes timerId variable which stores setInterval (Java) function. </br> The setInterval function enables the time to be updated per 1000 milliseconds. </br> For better performance, I set clearInterval function for deleting setInterval function in timerId after updating the current time.</br>
+<img width="351" alt="image" src="https://github.com/user-attachments/assets/eb9d7e7a-04ef-4e42-8743-4f09512343be" />
+</br>
 
-Currently, two official plugins are available:
+Thirdly, I made formattedTime variable which stores method to convert time object to String to show the display (time.toLocaleTimeString). <br/> It has a format such as hour, minute, and second in the curly bracket.<br/> 
+<img width="338" alt="image" src="https://github.com/user-attachments/assets/1d9fed1e-e928-462e-b965-d2c71db7c1e3" />
+</br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Finally, in return statement (which shows to user), I refered to formattedTime variable with curly bracket.</br> {time.toLocaleTimeString()} works instead of the variable; however, to show the formatted time, I refered to formattedTime variable.</br>
+<img width="237" alt="image" src="https://github.com/user-attachments/assets/dc997b73-d532-41a1-b21f-2fb52c0753b3" />
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
