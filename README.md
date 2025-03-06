@@ -1,4 +1,4 @@
-<img width="351" alt="image" src="https://github.com/user-attachments/assets/74905a39-7b51-4927-92a5-e6213e485669" />
+
 This application shows the current time based on local time.</br>
 It makes me deeply understand how usestate and useEffect work.
 </br>
