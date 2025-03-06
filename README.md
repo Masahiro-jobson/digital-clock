@@ -16,5 +16,9 @@ Thirdly, I made formattedTime variable which stores method to convert time objec
 
 Finally, in return statement (which shows to user), I refered to formattedTime variable with curly bracket.</br> {time.toLocaleTimeString()} works instead of the variable; however, to show the formatted time, I refered to formattedTime variable.</br>
 <img width="237" alt="image" src="https://github.com/user-attachments/assets/dc997b73-d532-41a1-b21f-2fb52c0753b3" />
+</br>
+
+Application Look</br>
+<img width="517" alt="image" src="https://github.com/user-attachments/assets/212db535-3767-48fc-8039-88f309cc0bfb" />
 
 
